@@ -1,0 +1,16 @@
+1. Adaugarea unui nou screen prin care se pot vedea produsele din tabela product se pot insera, uptada si sterge
+2. adaugati tipul/rolul de user (admin sau user_normal) si in functie de rolul acesta sa restrictionati accesul la anumite pagini
+  Ex: un user cu rolul de user_normal nu poate intra pe pagina de /customes dupa login ci, el trebuie sa intre pe pagina ce listeaza orderele userului
+*3. Adaugare de teste: unit tests + integration tests
+4. Implementarea coloanei Value din pagina /order
+5. Implementarea mecanismului de gestionare a stocului pentru produse.
+  Ex: sa implementati o coloana noua in tabela products care sa stocheze numarul de articole disponibile pt acel produs si sa modificati logica existenta pentru addProduct ca
+     sa respecte noul feature
+6. Implementarea coloanei Image din pagina de products (/customer-order-edit-rest.html)
+*7. Implementarea loginului folosind un username si in password salvat in baza de date
+*8. Implementarea paginii de inregistrare a userului (doar user cu rol de user_normal)
+9. Adaugarea de validari pe inputurile existente.
+  Ex: cand facem edit la customer sa avem grija sa fie introdus o data valida (sa nu avem customeri cu peste 100), validare nr_telefon/email
+
+* = obligatoriu de implementat
+Pe langa cele 3 obligatorii va trebui sa va mai alegeti voi inca 2. Total va fi minim 5
